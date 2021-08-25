@@ -24,7 +24,7 @@ function COC_startPotionRefillCooldown() {
 }
 
 class COC_PotionRefillCooldownTimer extends SU_CooldownTimer {
-  default counter_limit = 10; // 60 * 15
+  default counter_limit = 900; // 60 * 15
 
   default icon_name = "icons\inventory\scrolls\scroll2.dds";
 
